@@ -1,0 +1,19 @@
+﻿@model Car
+
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<h1>Car Detail</h1>
+
+<div class="list-group">
+    <ul class="list-group">
+        <a class="list-group-item list-group-item-action">
+            @Model.Name,
+            @Model.Price,
+            @Model.Color,
+            @Model.Year.ToString("yyyy")
+        </a>
+    </ul>
+    <a asp-controller="Car" asp-action="Index" asp-route-id="@Model.ModelId" class="list-group-item list-group-item-action text-danger">Back</a>
+</div>
