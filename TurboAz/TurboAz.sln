@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurboAz", "TurboAz\TurboAz.csproj", "{8C254ED3-AC02-49EE-8607-C75090212BF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C254ED3-AC02-49EE-8607-C75090212BF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C254ED3-AC02-49EE-8607-C75090212BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C254ED3-AC02-49EE-8607-C75090212BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C254ED3-AC02-49EE-8607-C75090212BF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {583F721A-56CD-4ED8-97CA-C4F0AE9DE470}
+	EndGlobalSection
+EndGlobal
